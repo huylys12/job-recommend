@@ -147,26 +147,3 @@ class LSA:
         self.svd.fit(features_matrix)
 
         logger.info('Done.')
-
-    def compare_two_text(self, text1: str, text2: str,
-                        method: str= 'Cosine')-> float:
-        """This method takes two text and perform preprocess, vectorizer, reduce
-        features and compare two vector using the specified method
-        This method will be used to compute the 'profile match' relation between
-        a candidate and a job.
-        """
-        pass
-
-    def compute_linear_kernel_matrix(self, documents: List[str]) -> np.ndarray:
-        """Compute and return the linear kernel matrix of all the documents using
-        latent semantic analysys.
-        The returned matrix is symetric and is an unscaled version of the Cosine similarity
-        matrix.
-        This method will be used to compute the 'similar' relation between entities
-        of the same type.
-        """
-        pass
-
-if __name__ == '__main__':
-    texts = 'The cat sat on the mat with another cat sat on the floor and another cat sat on the table'
-    print(make_vocab(texts, min_word_count = 2))

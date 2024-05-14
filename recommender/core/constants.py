@@ -2,19 +2,17 @@
 # JOBS_DATA_PATH = r'C:\Users\ASUS\Desktop\repositories\job_recommender\data\jobs.csv'
 # CV_DATAPATH = r'C:\Users\ASUS\Desktop\repositories\job_recommender\data\cvdata\ResumeDataSet.csv'
 
-LOG_FILE_PATH = '~/Documents/2010289/job_recommender/recommender/core/log.txt'
-EMPLOYERS_DATA_PATH = '~/Documents/2010289/job_recommender/data/companies.csv'
-JOBS_DATA_PATH = '~/Documents/2010289/job_recommender/data/jobs.csv'
-CV_DATAPATH = '~/Documents/2010289/job_recommender/data/cvdata/ResumeDataSet.csv'
-NETWORK_DATA_PATH = '~/Documents/2010289/job_recommender/data/network_data'
-NETWORK_BUILDER_SAVE_PATH = '~/Documents/2010289/job_recommender/data/network_data/network_builder.pkl'
+LOG_FILE_PATH = '../../recommender/core/log.txt'
+EMPLOYERS_DATA_PATH = '../../data/companies.csv'
+JOBS_DATA_PATH = '../../data/jobs.csv'
+CV_DATAPATH = '../../data/cvdata/ResumeDataSet.csv'
+NETWORK_DATA_PATH = '../../data/network_data'
+NETWORK_BUILDER_SAVE_PATH = '../../data/network_data/network_builder.pkl'
 
-VOCAB_PATH = '~/Documents/2010289/job_recommender/data/network_data/vocab.json'
-LSA_COMPARER_PATH = '~/Documents/2010289/job_recommender/data/network_data/lsa.pkl'
-
+VOCAB_PATH = '../../data/network_data/vocab.json'
+LSA_COMPARER_PATH = '../../data/network_data/lsa.pkl'
 
 # Edge weights
-#  
 POSTED_WEIGHT = 1
 APPLIED_WEIGHT = 2
 
@@ -27,7 +25,7 @@ PROFILE_MATCH_WEIGHT = 1
 EXPERTISE_MATCH_WEIGHT = 1
 
 FAVORITE_WEIGHT = 1
-LIKE_WEIGHT  = 0.5
+LIKE_WEIGHT = 0.5
 VISIT_WEIGHT = 0.2
 
 
@@ -43,4 +41,4 @@ COSINE_SIMILARITY_THRESHOLD = 0.4
 PROFILE_MATCHED_SIMILARITY_THRESDHOLD = 0.4
 
 # damping probability for PageRank
-alpha = 0.5
+alpha = 0.8
