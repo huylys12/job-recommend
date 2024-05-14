@@ -1,0 +1,11 @@
+scikit-learn~=1.4.2
+streamlit~=1.33.0
+networkx~=3.3
+nltk~=3.8.1
+pandas~=2.2.2
+numpy~=1.26.4
+
+Scrapy~=2.11.1
+itemadapter~=0.8.0
+flask~=3.0.3
+scipy~=1.13.0
